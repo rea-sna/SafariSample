@@ -2,7 +2,7 @@
 //  SafariSampleTests.swift
 //  SafariSampleTests
 //
-//  Created by 繁野怜央 on 20200606.
+//  Created by Reo.S on 20200606.
 //  Copyright © 2020 Reo.S. All rights reserved.
 //
 

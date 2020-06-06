@@ -49,6 +49,7 @@
 		45B26E24248BE57D0055FCE1 /* SafariSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B26E28248BE57D0055FCE1 /* SafariSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSampleUITests.swift; sourceTree = "<group>"; };
 		45B26E2A248BE57D0055FCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B26E36248BEAF80055FCE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		45B26DFA248BE5790055FCE1 = {
 			isa = PBXGroup;
 			children = (
+				45B26E36248BEAF80055FCE1 /* README.md */,
 				45B26E05248BE5790055FCE1 /* SafariSample */,
 				45B26E1C248BE57D0055FCE1 /* SafariSampleTests */,
 				45B26E27248BE57D0055FCE1 /* SafariSampleUITests */,
@@ -435,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2JNY9N3J7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SafariSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2JNY9N3J7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SafariSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
