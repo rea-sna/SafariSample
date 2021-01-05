@@ -15,13 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func open(_ sender: Any) {
+    @IBAction func pageSheetTapped(_ sender: Any) {
         let webPage = "https://google.com"
         let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
-        safariVC.modalPresentationStyle = .pageSheet  // フルスクリーンにしたい場合はこの行を削除してください
+        safariVC.modalPresentationStyle = .pageSheet
         present(safariVC, animated: true, completion: nil)
-        
     }
     
+    @IBAction func fullScreentapped(_ sender: Any) {
+        let webPage = "https://google.com"
+        let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+        safariVC.modalPresentationStyle = .fullScreen
+        present(safariVC, animated: true, completion: nil)
+    }
 }
-

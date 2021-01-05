@@ -1,2 +1,2 @@
 #  Safari Sample
-Qiita Link: [https://qiita.com/rea_sna/items/e1c8ea42ad7c36713106]( [https://qiita.com/rea_sna/items/e1c8ea42ad7c36713106])
+Qiita Link: https://qiita.com/rea_sna/items/e1c8ea42ad7c36713106
