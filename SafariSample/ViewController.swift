@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func overFullScreenTapped(_ sender: Any) {
+            let webPage = "https://google.com"
+            let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
+            safariVC.modalPresentationStyle = .overFullScreen
+            present(safariVC, animated: true, completion: nil)
+    }
+    
     @IBAction func pageSheetTapped(_ sender: Any) {
         let webPage = "https://google.com"
         let safariVC = SFSafariViewController(url: NSURL(string: webPage)! as URL)
